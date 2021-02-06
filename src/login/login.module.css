@@ -1,0 +1,49 @@
+/* Full-width input fields */
+input[type="email"],
+input[type="password"] {
+  width: 60%;
+  padding: 14px 20px;
+  margin: 5px 0;
+  display: block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+input[type="email"]:focus,
+input[type="password"]:focus {
+  border: 1px solid red;
+}
+
+/* Set a style for all buttons */
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 1px 0;
+  border: none;
+  cursor: pointer;
+  width: 60%;
+}
+input[type="submit"]:hover {
+  border: 1px solid red;
+}
+
+/* .registerplace label {
+  color: white;
+}
+
+/* Extra styles for the cancel button */
+/* .signinbtn {
+  padding: 14px 20px;
+  margin: 2px;
+} */
+
+/* Float cancel and signup buttons and add an equal width */
+/* .signinbtn,
+.signupbtn {
+  float: left;
+  width: 48%;
+  margin-top: 25px;
+  background-color: #333333;
+  border-radius: 5px;
+} */
